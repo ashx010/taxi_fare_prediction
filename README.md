@@ -27,15 +27,19 @@ The following steps were taken to clean and prepare the data for modeling:
 ## Exploratory Data Analysis
 Some data visualizations were used to understand the data and its distribution. For example, here are some plots showing the relationship between different features and the target variable:
 
+-FARE VS DISTANCE
 ![Fare vs Distance](images/farevsdistance.png)
 
+-FARE VS DURATION
 ![Fare vs Duration](images/farevsduration.png)
 
 ## Feature Selection
-Feature importance was visualized for different models to identify the most relevant features for predicting the total fare. For example, here are some plots showing the feature importance for XGBoostRF, Random Forest, and Linear Regression models:
+Feature importance was visualized for different models to identify the most relevant features for predicting the total fare. For example, here are some plots showing the feature importance for XGBoostRF and Random Forest:
 
-![XGBoost Feature Importance](images/xgbrf_feature_importance.png)
+-XGBOOSTRF
+![XGBoostRF Feature Importance](images/xgbrf_feature_importance.png)
 
+-RANDOM FOREST
 ![Random Forest Feature Importance](images/rf_feature_importance.png)
 
 ## Model Building
