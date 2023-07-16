@@ -61,7 +61,7 @@ The metrics used to measure the performance of the models were R2 score and Root
 | Decision Tree | 0.892 | 0.909 | 0.095 |
 | Artificial Neural Network | - | 0.923 | 0.097 |
 
-The best performing model was XGBoost, followed by Random Forest.
+The best performing model was XGBoostRF, followed by Random Forest.
 
 ## Model Tuning
 Hyperparameter tuning was performed on every models using GridSearchCV to find the optimal parameters that would improve the model performance. The tuned models achieved slightly better results than the default models.
@@ -72,6 +72,8 @@ An ensemble averaging model was created by combining the predictions of XGBoost 
 | Model | R2 Score (Train) | R2 Score (Test) | RMSLE (Test) |
 |-------|------------------|-----------------|--------------|
 | Ensemble Model | - | 0.930 | 0.084 |
+
+![Model_Comparison](images/modelcomparison.png)
 
 ## Conclusion
 The project demonstrated the use of different machine learning algorithms and data preprocessing techniques to predict the total fare for a taxi ride. The best performing model was ensemble model, followed by XGBOOSTRF and ANN. The final score achieved on the test data was 0.16256. The project also showed the importance of feature engineering, feature selection, and hyperparameter tuning to improve the model performance.
